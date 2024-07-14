@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.left span {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.left a, .right a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.right img {
+    height: 20px;
+}
+
+.right a:last-child {
+    margin-right: 0;
+}
